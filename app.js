@@ -1,4 +1,3 @@
-```javascript
 // ==========================================
 // INGREDIENTS
 // ==========================================
@@ -379,4 +378,3 @@ resetButton.addEventListener("click", () => {
 renderIngredients();
 renderCocktails();
 updateIngredientCount();
-```
