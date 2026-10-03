@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,51 +9,53 @@
     <meta name="apple-mobile-web-app-title" content="Cocktails">
     <meta name="theme-color" content="#111111">
 
-    <title>Cocktail Checklist</title>
+<title>Cocktail Checklist</title>
 
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <main class="app">
 
-        <header class="header">
+<main class="app">
+
+    <header class="header">
+        <div>
+            <p class="eyebrow">MY BAR</p>
+            <h1>Cocktail Checklist</h1>
+        </div>
+
+        <button id="resetButton" class="reset-button">
+            Reset
+        </button>
+    </header>
+
+    <section class="section">
+        <div class="section-header">
             <div>
-                <p class="eyebrow">MY BAR</p>
-                <h1>Cocktail Checklist</h1>
+                <h2>My Ingredients</h2>
+                <p id="ingredientCount">0 / 12 available</p>
             </div>
+        </div>
 
-            <button id="resetButton" class="reset-button">
-                Reset
-            </button>
-        </header>
+        <div id="ingredientsList" class="ingredients-list"></div>
+    </section>
 
-        <section class="section">
-            <div class="section-header">
-                <div>
-                    <h2>My Ingredients</h2>
-                    <p id="ingredientCount">0 / 12 available</p>
-                </div>
+    <section class="section cocktails-section">
+        <div class="section-header">
+            <div>
+                <h2>What Can I Make?</h2>
+                <p id="cocktailCount">0 cocktails available</p>
             </div>
+        </div>
 
-            <div id="ingredientsList" class="ingredients-list"></div>
-        </section>
+        <div id="cocktailsList" class="cocktails-list"></div>
+    </section>
 
-        <section class="section cocktails-section">
-            <div class="section-header">
-                <div>
-                    <h2>What Can I Make?</h2>
-                    <p id="cocktailCount">0 cocktails available</p>
-                </div>
-            </div>
+</main>
 
-            <div id="cocktailsList" class="cocktails-list"></div>
-        </section>
-
-    </main>
-
-    <script src="app.js"></script>
+<script src="app.js"></script>
 
 </body>
 </html>
