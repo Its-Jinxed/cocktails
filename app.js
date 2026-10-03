@@ -147,7 +147,7 @@ const cocktails = [
     ],
 
     method:
-        "Fill a highball glass with ice. Add vodka and orange juice. Stir gently.Garnish with an orange slice."
+        "Fill a highball glass with ice. Add vodka and orange juice. Stir gently. Garnish with an orange slice."
 },
 
 {
