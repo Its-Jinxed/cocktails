@@ -16,6 +16,18 @@ id: "peach-schnapps",
 name: "Peach Schnapps"
 },
 {
+id: "fresh-limes",
+name: "Fresh Limes"
+},
+{
+id: "fresh-mint",
+name: "Fresh Mint"
+},
+{
+id: "simple-syrup",
+name: "Simple Syrup"
+},
+{
 id: "ginger-beer",
 name: "Ginger Beer"
 },
@@ -34,63 +46,12 @@ name: "Orange Juice"
 {
 id: "cranberry-juice",
 name: "Cranberry Juice"
-},
-{
-id: "fresh-limes",
-name: "Fresh Limes"
-},
-{
-id: "fresh-mint",
-name: "Fresh Mint"
-},
-{
-id: "simple-syrup",
-name: "Simple Syrup"
 }
+
 ];
 
+
 const cocktails = [
-{
-name: "Moscow Mule",
-
-    ingredients: [
-        "vodka",
-        "fresh-limes",
-        "ginger-beer"
-    ],
-
-    recipe: [
-        "2 oz vodka",
-        "½ oz fresh lime juice",
-        "4–5 oz ginger beer",
-        "Lime wedge"
-    ],
-
-    method:
-        "Fill a glass with ice. Add vodka and fresh lime juice. Top with ginger beer and gently stir. Garnish with a lime wedge."
-},
-
-{
-    name: "Cosmopolitan",
-
-    ingredients: [
-        "vodka",
-        "triple-sec",
-        "cranberry-juice",
-        "fresh-limes"
-    ],
-
-    recipe: [
-        "1½ oz vodka",
-        "¾ oz triple sec",
-        "1 oz cranberry juice",
-        "½ oz fresh lime juice"
-    ],
-
-    method:
-        "Add all ingredients to a shaker with ice. Shake for 10–15 seconds. Strain into a chilled Martini or coupe glass."
-},
-
 {
     name: "Sex on the Beach",
 
@@ -102,14 +63,74 @@ name: "Moscow Mule",
     ],
 
     recipe: [
-        "1½ oz vodka",
-        "¾ oz peach schnapps",
-        "1½ oz orange juice",
-        "1½ oz cranberry juice"
+        "1.5 oz vodka",
+        "0.5 oz peach schnapps",
+        "2 oz orange juice",
+        "2 oz cranberry juice"
     ],
 
     method:
-        "Fill a glass with ice. Add all ingredients and gently stir. Garnish with an orange slice if desired."
+        "Fill a highball glass with ice. Add all ingredients and gently stir. Garnish with an orange slice."
+},
+
+{
+    name: "Woo Woo",
+
+    ingredients: [
+        "vodka",
+        "peach-schnapps",
+        "cranberry-juice"
+    ],
+
+    recipe: [
+        "2 oz vodka",
+        "1 oz peach schnapps",
+        "4 oz cranberry juice"
+    ],
+
+    method:
+        "Add all ingredients to a shaker with ice. Shake for 10–15 seconds. Strain into a highball glass filled with ice. Garnish with a lime wedge."
+},
+
+{
+    name: "Cosmopolitan",
+
+    ingredients: [
+        "vodka",
+        "triple-sec",
+        "fresh-limes",
+        "cranberry-juice"
+    ],
+
+    recipe: [
+        "2 oz vodka",
+        "1 oz triple sec",
+        "1 oz fresh lime juice",
+        "1 oz cranberry juice"
+    ],
+
+    method:
+        "Add all ingredients to a shaker with ice. Shake for 10–15 seconds. Strain into a Martini or coupe glass. Garnish with a lime wedge/wheel, or citrus peel twist."
+},
+
+{
+    name: "Moscow Mule",
+
+    ingredients: [
+        "vodka",
+        "fresh-limes",
+        "ginger-beer"
+    ],
+
+    recipe: [
+        "2 oz vodka",
+        "0.5 oz fresh lime juice",
+        "4 oz ginger beer",
+        "Lime wedge"
+    ],
+
+    method:
+        "Fill a short with ice (traditionally copper mug). Add vodka and fresh lime juice. Top with ginger beer and gently stir. Garnish with a lime wedge."
 },
 
 {
@@ -122,71 +143,11 @@ name: "Moscow Mule",
 
     recipe: [
         "2 oz vodka",
-        "4–5 oz orange juice"
+        "4 oz orange juice"
     ],
 
     method:
-        "Fill a glass with ice. Add vodka and orange juice. Stir gently and garnish with an orange slice if desired."
-},
-
-{
-    name: "Woo Woo",
-
-    ingredients: [
-        "vodka",
-        "peach-schnapps",
-        "cranberry-juice",
-        "fresh-limes"
-    ],
-
-    recipe: [
-        "1½ oz vodka",
-        "¾ oz peach schnapps",
-        "1½ oz cranberry juice",
-        "½ oz fresh lime juice"
-    ],
-
-    method:
-        "Add all ingredients to a shaker with ice. Shake for 10–15 seconds. Strain over fresh ice."
-},
-
-{
-    name: "Daiquiri",
-
-    ingredients: [
-        "white-rum",
-        "fresh-limes",
-        "simple-syrup"
-    ],
-
-    recipe: [
-        "2 oz white rum",
-        "1 oz fresh lime juice",
-        "¾ oz simple syrup"
-    ],
-
-    method:
-        "Add all ingredients to a shaker with ice. Shake for 10–15 seconds. Strain into a chilled coupe or Martini glass."
-},
-
-{
-    name: "Cuba Libre",
-
-    ingredients: [
-        "white-rum",
-        "coca-cola",
-        "fresh-limes"
-    ],
-
-    recipe: [
-        "2 oz white rum",
-        "½ oz fresh lime juice",
-        "4–5 oz Coca-Cola",
-        "Lime wedge"
-    ],
-
-    method:
-        "Fill a glass with ice. Add rum and fresh lime juice. Top with Coca-Cola and gently stir. Garnish with a lime wedge."
+        "Fill a highball glass with ice. Add vodka and orange juice. Stir gently.Garnish with an orange slice."
 },
 
 {
@@ -201,18 +162,58 @@ name: "Moscow Mule",
     ],
 
     recipe: [
-        "2 oz white rum",
-        "¾ oz fresh lime juice",
-        "¾ oz simple syrup",
-        "8–10 mint leaves",
-        "2½–3 oz soda water"
+        "1.5 oz white rum",
+        "0.75 oz fresh lime juice",
+        "0.75 oz simple syrup",
+        "5 mint leaves",
+        "2–3 oz soda water"
     ],
 
     method:
-        "Add mint and simple syrup to a glass and gently muddle. Add lime juice and rum. Fill with crushed ice and stir. Top with soda water, gently stir again, and garnish with mint and lime."
+        "Add mint and simple syrup to shaker and gently muddle. Add lime juice and rum. Fill with ice and shake. Start a highball glass with some soda water and fill with ice, then strain into the glass. Garnish with a mint sprig."
+},
+
+{
+    name: "Daiquiri",
+
+    ingredients: [
+        "white-rum",
+        "fresh-limes",
+        "simple-syrup"
+    ],
+
+    recipe: [
+        "2 oz white rum",
+        "1 oz fresh lime juice",
+        "0.75 oz simple syrup"
+    ],
+
+    method:
+        "Simple syrup first in shaker. Add rum and lime juice with ice. Shake for 10–15 seconds. Strain into a chilled coupe or Martini glass. Garnish with lime twist/wheel/wedge."
+},
+
+{
+    name: "Cuba Libre",
+
+    ingredients: [
+        "white-rum",
+        "coca-cola",
+        "fresh-limes"
+    ],
+
+    recipe: [
+        "2 oz white rum",
+        "0.5 oz fresh lime juice",
+        "4 oz Coca-Cola",
+        "Lime wedge"
+    ],
+
+    method:
+        "Fill a glass with ice. Add rum and fresh lime juice. Top with Coca-Cola and gently stir. Garnish with a lime wedge."
 }
 
 ];
+
 
 const STORAGE_KEY = "cocktailIngredientAvailability";
 
